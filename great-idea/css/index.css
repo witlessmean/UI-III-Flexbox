@@ -48,13 +48,16 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+* { 
+	
     box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 30px;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +67,185 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* start header here */
+
+a{ 
+   text-decoration: none;
+   color: rgb(175, 164, 164)
+}
+
+nav  { 
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+}
+
+h1 { 
+	width: 250px;
+	font-size: 4em;
+}
+
+h2 { 
+	text-align: left;
+}
+
+
+header { 
+display: flex;
+justify-content: center;
+}
+
+
+/* services.html classes start */
+
+
+hr {
+	margin: 30px;
+}
+
+li { 
+	list-style-type: square;
+}
+
+
+.serviceTitleFlex { display: flex;}
+
+.hero { display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 25px;
+}
+
+.h1halfSize { 
+	font-size: 2em;
+}
+
+.servicesMargin { 
+	50px;
+}
+
+.learnMore { 
+	border: 1px solid black;
+	border-radius: 8px;
+	width: 100px;
+	height: 25px;
+	text-align: center;;
+}
+
+
+.flexServicesContainer {
+	display: flex;
+	width: 70%;
+    
+}
+
+.flexServices { 
+	display: flex;
+	margin: 0.5em;
+	flex-direction: column;
+	background: rgb(230, 228, 228); 
+	border: 1px solid black;
+	
+}
+
+.flexSomeFacts { 
+	display: flex;
+	margin: 0.5em;
+	flex-direction: column;
+	width: 30%;
+	
+}
+
+.flexSomeFactsimg { 
+	display: flex;
+	margin: 0.5em;
+	flex-direction: column;
+	
+}
+
+/* flexer is deepest flex container */
+
+.flexer {
+	
+    display: flex;
+	justify-content: center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/*index.html classes start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-img { 
+width: 300px
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+ 
+  width: 60%;
+}
+
+
+.textCenter {text-align: center;}
+
+.getstartedbox {
+	font-size: 16px;
+	font-family: Titillium Web;
+	display: inline-block;
+	border: solid 1px;
+	padding: 10px 30px
+}
+
+.flexFeatures {
+	display: flex;
+	width: 60%;
+	justify-content: space-around;
+}
+
+.contactFlex{ 
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-left: 400px
+}
+
+.midImgAlign { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 25px;
+}
+
+footer { 
+	text-align: center;
+	margin-top: 50px}
+
+
